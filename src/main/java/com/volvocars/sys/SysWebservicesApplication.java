@@ -9,14 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
-public class SysWebservicesApplication extends SpringBootServletInitializer {
+public class SysWebservicesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SysWebservicesApplication.class, args);
 	}
-	
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(SysWebservicesApplication.class);
-    }
 }
