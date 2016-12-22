@@ -37,6 +37,11 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
 			<artifactId>tomcat-embed-websocket</artifactId>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<scope>provided</scope>
